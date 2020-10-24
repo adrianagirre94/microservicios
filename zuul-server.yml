@@ -17,12 +17,6 @@ zuul:
     echo-service:
       path: /echo/**
       serviceId: echo-service
-ribbon:
-  eureka:
-    enabled: false
 
-echo-service:
-  ribbon:
-    listOfServers: http://localhost:8091,http://localhost:8092
 
 
